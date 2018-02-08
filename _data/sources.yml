@@ -1,0 +1,6 @@
+- name: SIGGRAPH calendar
+  url: https://www.siggraph.org/calendar/table.html
+- name: SIGGRAPH events
+  url: https://www.siggraph.org/attend/events
+- name: EG event list
+  url: https://www.eg.org/wp/events/list/

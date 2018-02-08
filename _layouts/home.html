@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <p>{{ site.title }}</p>
+        {{ content }}
+        <br /><hr /><br />
+        <p>Sources :</p>
+        <ul>
+          {% for source in site.data.sources %}
+          <li><a href="{{ source.url }}">{{ source.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>

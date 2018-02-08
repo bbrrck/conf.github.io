@@ -1,0 +1,26 @@
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% assign conferences = site.data.conferences %}
+{% for year in (2016..2018) reversed %}
+<h2>{{ year }}</h2>
+<table>
+  <!-- <tr>
+    <td>what</td>
+    <td>when</td>
+    <td>where</td>
+    <td>deadline</td>
+  </tr> -->
+{% for conf in conferences %}
+  {% for edition in conf.editions %}
+  {% if edition.year == year %}
+  {% capture deadline %}{{edition.dead | date: '%s'}}{% endcapture %}
+    <tr>
+      <td><a href="{{ edition.url }}">{{ conf.name }} {{ year }}</a></td>
+      <td>{{ edition.start | date_to_string }} — {{ edition.end | date_to_string }}</td>
+      <td>{{ edition.venue }}</td>
+      <td>{% if edition.proceedings == "" %}<span style="{% if deadline < nowunix %}text-decoration:line-through;color:#999;{% endif %}">{{ deadline | date_to_string }}</span>{% else %}<a href="{{ edition.proceedings }}">proceedings</a>{% endif %}</td>
+    </tr>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</table>
+{% endfor %}
