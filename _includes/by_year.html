@@ -3,12 +3,6 @@
 {% for year in (2016..2018) reversed %}
 <h2>{{ year }}</h2>
 <table>
-  <!-- <tr>
-    <td>what</td>
-    <td>when</td>
-    <td>where</td>
-    <td>deadline</td>
-  </tr> -->
 {% for conf in conferences %}
   {% for edition in conf.editions %}
   {% if edition.year == year %}

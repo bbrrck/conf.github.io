@@ -1,17 +1,22 @@
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 {% assign conferences = site.data.conferences %}
 {% for conf in conferences %}
-<h2>{{ conf.name }} <span style="color:#999;font-size:80%;display:inline-block;margin-left:0.5ex;">: {{ conf.fullname }}</span></h2>
-<table>
+<h2>{{ conf.name }}{% if conf.fullname %} <span style="color:#999;font-size:80%;display:inline-block;margin-left:0.5ex;">: {{ conf.fullname }}</span>{% endif %}</h2>
+<table class="conference-list">
   {% for edition in conf.editions %}
-    {% assign mstart = edition.start | date:"%m" %}
-    {% assign mend   = edition.end   | date:"%m" %}
-    {% capture deadline %}{{edition.dead | date: '%s'}}{% endcapture %}
     <tr>
-      <td><a href="{{ edition.url }}">{{ conf.name }} {{ edition.year }}</a></td>
-      <td>{{ edition.start | date:"%d %B" }} — {{ edition.end | date:"%d %B" }}</td>
-      <td>{{ edition.venue }}</td>
-      <td style="{% if deadline < nowunix %}text-decoration:line-through;color:#999;{% endif %}">{{ deadline | date_to_string }}</td>
+      <td class="conference-name"><a href="{{ edition.url }}">{{ conf.name }} {{ edition.year }}</a></td>
+      <td class="conference-date">{{ edition.start | date:"%d %B" }} — {{ edition.end | date:"%d %B" }}</td>
+      <td class="conference-venue">{{ edition.venue }}</td>
+      <td class="conference-proc">
+        {% if edition.proceedings %}<a href="{{ edition.proceedings }}">proceedings</a>
+        {% else %}
+        {% if edition.dead %}
+          {% capture deadline %}{{edition.dead | date: '%s'}}{% endcapture %}
+          <span style="{% if deadline < nowunix %}text-decoration:line-through;color:#999;{% endif %}">{{ deadline | date_to_string }}</span>
+        {% endif %}
+        {% endif %}
+        </td>
     </tr>
   {% endfor %}
 </table>

@@ -1,24 +1,119 @@
-############
-### 2018 ###
-############
-- name : GMP
-  fullname: Geometric Modeling and Processing
+# ------------------------------------------------------------------------------
+# SIGGRAPH
+# ------------------------------------------------------------------------------
+- name : SIGGRAPH
+  fullname: Special Interest Group on Computer Graphics and Interactive Techniques
   editions:
-  - year: 2018
-    venue: Aachen, Germany
-    url  : http://www.gmp2018.rwth-aachen.de/
-    start: 2018-04-09
-    end  : 2018-04-11
-    dead : 2017-11-02
-    proceedings: ''
-  - year: 2017
-    venue: Xiamen, China
-    url  : http://graphics.xmu.edu.cn/gmp2017/
-    start: 2017-04-17
-    end  : 2017-04-19
-    dead : 2016-11-13
-    proceedings: 'https://www.sciencedirect.com/journal/computer-aided-geometric-design/vol/52/suppl/C'
-
+  - year : 2018
+    venue: Vancouver, Canada
+    url  : https://s2018.siggraph.org/
+    start: 2018-08-12
+    end  : 2018-08-16
+    dead : 2018-01-23
+  - year : 2017
+    venue: Los Angeles, CA
+    url  : https://s2017.siggraph.org/
+    start: 2017-07-30
+    end  : 2017-08-03
+    proceedings: 'https://dl.acm.org/citation.cfm?id=3072959'
+  - year : 2016
+    venue: Anaheim, CA
+    url  : https://s2016.siggraph.org/
+    start: 2016-07-24
+    end  : 2016-07-28
+    proceedings: 'https://dl.acm.org/citation.cfm?id=2897824'
+  - year : 2015
+    venue: Los Angeles, CA
+    url  : https://s2015.siggraph.org/
+    start: 2015-08-09
+    end  : 2015-08-13
+    proceedings: 'https://dl.acm.org/citation.cfm?id=2809654'
+  - year : 2014
+    venue: Vancouver, Canada
+    url  : https://s2014.siggraph.org/
+    start: 2014-08-10
+    end  : 2014-08-14
+    proceedings: 'https://dl.acm.org/citation.cfm?id=2601097'
+  - year : 2013
+    venue: Anaheim, CA
+    url  : https://s2013.siggraph.org/
+    start: 2013-07-21
+    end  : 2013-07-25
+    proceedings: 'https://dl.acm.org/citation.cfm?id=2461912'
+  - year : 2012
+    venue: Los Angeles, CA
+    url  : https://s2012.siggraph.org/
+    start: 2012-08-05
+    end  : 2012-08-09
+    proceedings: 'https://dl.acm.org/citation.cfm?id=2185520'
+  - year : 2011
+    venue: Vancouver, Canada
+    url  : http://www.siggraph.org/s2011/
+    start: 2011-08-07
+    end  : 2011-08-11
+    proceedings: 'https://dl.acm.org/citation.cfm?id=2010324'
+  - year : 2010
+    venue: Los Angeles, CA
+    url  : http://www.siggraph.org/s2010/
+    start: 2010-07-25
+    end  : 2010-07-29
+    proceedings: 'https://dl.acm.org/citation.cfm?id=1778765'
+# ------------------------------------------------------------------------------
+# SIGGRAPH Asia
+# ------------------------------------------------------------------------------
+- name : SIGGRAPH Asia
+  editions:
+  - year : 2018
+    venue: Tokyo, Japan
+    url  : http://sa2018.siggraph.org/
+    start: 2018-12-04
+    end  : 2018-12-07
+    dead : 2018-06-05
+  - year : 2017
+    venue: Tokyo, Japan
+    url  : http://sa2017.siggraph.org/
+    start: 2017-11-27
+    end  : 2017-11-30
+    proceedings: 'https://dl.acm.org/citation.cfm?id=3130800'
+  - year : 2016
+    venue: Macao
+    url  : http://sa2016.siggraph.org/
+    start: 2016-12-05
+    end  : 2016-12-08
+    proceedings: 'https://dl.acm.org/citation.cfm?id=2980179'
+  - year : 2015
+    venue: Kobe, Japan
+    url  : http://sa2015.siggraph.org/
+    start: 2015-11-02
+    end  : 2015-11-05
+    proceedings: 'https://dl.acm.org/citation.cfm?id=2870647'
+  - year : 2014
+    venue: Shenzen, China
+    url  : http://sa2014.siggraph.org/
+    start: 2014-12-03
+    end  : 2014-12-06
+    proceedings: 'https://dl.acm.org/citation.cfm?id=2661229'
+  - year : 2013
+    venue: Hong Kong
+    url  : 'https://web.archive.org/web/20140121200726/http://sa2013.siggraph.org:80/en/'
+    start: 2013-11-19
+    end  : 2013-11-22
+    proceedings: 'https://dl.acm.org/citation.cfm?id=2508363'
+  - year : 2012
+    venue: Singapore
+    url  : 'https://web.archive.org/web/20130101034901/http://www.siggraph.org/asia2012'
+    start: 2012-11-28
+    end  : 2012-12-01
+    proceedings: 'https://dl.acm.org/citation.cfm?id=2366145'
+  - year : 2011
+    venue: Hong Kong
+    url  : https://web.archive.org/web/20120101040939/http://www.siggraph.org/asia2011
+    start: 2011-12-12
+    end  : 2011-12-15
+    proceedings: 'https://dl.acm.org/citation.cfm?id=2070781'
+# ------------------------------------------------------------------------------
+# Eurographics
+# ------------------------------------------------------------------------------
 - name : EG
   fullname: Eurographics
   editions:
@@ -28,8 +123,63 @@
     start: 2018-04-16
     end  : 2018-04-20
     dead : 2017-10-10
-    proceedings: ''
-
+# ------------------------------------------------------------------------------
+# SGP
+# ------------------------------------------------------------------------------
+- name : SGP
+  fullname: Symposium on Geometry Processing
+  editions:
+  - year : 2018
+    venue: Paris, France
+    url  : https://sgp2018.sciencesconf.org/
+    start: 2018-07-09
+    end  : 2018-07-11
+    dead : 2018-04-12
+# ------------------------------------------------------------------------------
+# SMI
+# ------------------------------------------------------------------------------
+- name : SMI
+  fullname: Shape Modeling International
+  editions:
+  - year : 2018
+    venue: Lisbon, Portugal
+    url  : http://smi2018.tecnico.ulisboa.pt
+    start: 2018-06-06
+    end  : 2018-06-08
+    dead : 2018-03-12
+# ------------------------------------------------------------------------------
+# SPM
+# ------------------------------------------------------------------------------
+- name : SPM
+  fullname: Solid and Physical Modeling
+  editions:
+  - year : 2018
+    venue: Bilbao, Spain
+    url  : https://wp.bcamath.org/spm2018/
+    start: 2018-06-11
+    end  : 2018-06-13
+    dead : 2018-02-16
+# ------------------------------------------------------------------------------
+# GMP
+# ------------------------------------------------------------------------------
+- name : GMP
+  fullname: Geometric Modeling and Processing
+  editions:
+  - year: 2018
+    venue: Aachen, Germany
+    url  : http://www.gmp2018.rwth-aachen.de/
+    start: 2018-04-09
+    end  : 2018-04-11
+    dead : 2017-11-02
+  - year: 2017
+    venue: Xiamen, China
+    url  : http://graphics.xmu.edu.cn/gmp2017/
+    start: 2017-04-17
+    end  : 2017-04-19
+    proceedings: 'https://www.sciencedirect.com/journal/computer-aided-geometric-design/vol/52/suppl/C'
+# ------------------------------------------------------------------------------
+# Graphics Interface
+# ------------------------------------------------------------------------------
 - name : GI
   fullname: Graphics Interface
   editions:
@@ -39,114 +189,63 @@
     start: 2018-05-08
     end  : 2018-05-11
     dead : 2017-12-22
-    proceedings: ''
-
+# ------------------------------------------------------------------------------
+# I3D
+# ------------------------------------------------------------------------------
 - name : I3D
   fullname: Interactive 3D Graphics and Games
   editions:
-  - venue: Montreal, Canada
+  - year : 2018
+    venue: Montreal, Canada
     url  : http://i3dsymposium.github.io/2018/
-    year : 2018
     start: 2018-05-15
     end  : 2018-05-18
     dead : 2017-12-29
-    proceedings: ''
-
-- name : SMI
-  fullname: Shape Modeling International
-  editions:
-  - venue: Lisbon, Portugal
-    url  : http://smi2018.tecnico.ulisboa.pt
-    year : 2018
-    start: 2018-06-06
-    end  : 2018-06-08
-    dead : 2018-03-12
-    proceedings: ''
-
-- name : SPM
-  fullname: Solid and Physical Modeling
-  editions:
-  - venue: Bilbao, Spain
-    url  : https://wp.bcamath.org/spm2018/
-    year : 2018
-    start: 2018-06-11
-    end  : 2018-06-13
-    dead : 2018-02-16
-    proceedings: ''
-
+# ------------------------------------------------------------------------------
+# CGI
+# ------------------------------------------------------------------------------
 - name : CGI
   fullname: Computer Graphics International
   editions:
-  - venue: Bintan Island, Indonesia
+  - year : 2018
+    venue: Bintan Island, Indonesia
     url  : http://www.cgs-network.org/cgi18/
-    year : 2018
     start: 2018-06-11
     end  : 2018-06-14
     dead : 2018-02-13
-    proceedings: ''
-
+# ------------------------------------------------------------------------------
+# SCF
+# ------------------------------------------------------------------------------
 - name : SCF
   fullname: Symposium on Computational Fabrication
   editions:
-  - venue: Cambridge, Massachusetts
+  - year : 2018
+    venue: Cambridge, MA
     url  : https://scf.acm.org/
-    year : 2018
     start: 2018-06-17
     end  : 2018-06-19
     dead : 2018-04-05
-    proceedings: ''
-
-- name : SGP
-  fullname: Symposium on Geometry Processing
-  editions:
-  - venue: Paris, France
-    url  : https://sgp2018.sciencesconf.org/
-    year : 2018
-    start: 2018-07-09
-    end  : 2018-07-11
-    dead : 2018-04-12
-    proceedings: ''
-
+# ------------------------------------------------------------------------------
+# SCA
+# ------------------------------------------------------------------------------
 - name : SCA
   fullname: Symposium on Computer Animation
   editions:
-  - venue: Paris, France
+  - year : 2018
+    venue: Paris, France
     url  : http://sca2018.inria.fr/
-    year : 2018
     start: 2018-07-11
     end  : 2018-07-13
     dead : 2018-04-01
-    proceedings: ''
-
-- name : SIGGRAPH
-  fullname: Special Interest Group on Computer Graphics and Interactive Techniques
-  editions:
-  - venue: Vancouver, Canada
-    url  : https://s2018.siggraph.org/
-    year : 2018
-    start: 2018-08-12
-    end  : 2018-08-16
-    dead : 2018-01-23
-    proceedings: ''
-
+# ------------------------------------------------------------------------------
+# UIST
+# ------------------------------------------------------------------------------
 - name : UIST
   fullname: User Interface Software and Technology
   editions:
-  - venue: Berlin, Germany
+  - year : 2018
+    venue: Berlin, Germany
     url  : https://uist.acm.org/uist2018/
-    year : 2018
     start: 2018-10-15
     end  : 2018-10-17
     dead : 2018-04-05
-    proceedings: ''
-
-- name : SIGGRAPH Asia
-  fullname:
-  editions:
-  - venue: Tokyo, Japan
-    url  : http://sa2018.siggraph.org/
-    year : 2018
-    start: 2018-12-04
-    end  : 2018-12-07
-    dead : 2018-06-05
-    proceedings: ''
