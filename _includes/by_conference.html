@@ -9,12 +9,13 @@
       <td class="conference-date">{{ edition.start | date:"%d %B" }} — {{ edition.end | date:"%d %B" }}</td>
       <td class="conference-venue">{{ edition.venue }}</td>
       <td class="conference-proc">
-        {% if edition.proceedings %}<a href="{{ edition.proceedings }}">proceedings</a>
+        {% if edition.proceedings %}
+          <a href="{{ edition.proceedings }}">proceedings</a>
         {% else %}
-        {% if edition.dead %}
-          {% capture deadline %}{{edition.dead | date: '%s'}}{% endcapture %}
-          <span style="{% if deadline < nowunix %}text-decoration:line-through;color:#999;{% endif %}">{{ deadline | date_to_string }}</span>
-        {% endif %}
+          {% if edition.dead %}
+            {% capture deadline %}{{edition.dead | date: '%s'}}{% endcapture %}
+            <span style="{% if deadline < nowunix %}text-decoration:line-through;color:#999;{% endif %}">{{ deadline | date_to_string }}</span>
+          {% endif %}
         {% endif %}
         </td>
     </tr>

@@ -123,6 +123,48 @@
     start: 2018-04-16
     end  : 2018-04-20
     dead : 2017-10-10
+  - year : 2017
+    venue: Lyon, France
+    url  : http://eurographics2017.fr/
+    start: 2017-04-24
+    end  : 2017-04-28
+    proceedings: 'https://diglib.eg.org/handle/10.2312/2631246'
+  - year : 2016
+    venue: Lisbon, Portugal
+    url  : http://eurographics2016.pt/
+    start: 2016-05-09
+    end  : 2016-05-13
+    proceedings: 'https://diglib.eg.org/handle/10.2312/15062'
+  - year : 2015
+    venue: Zurich, Switzerland
+    url  : http://www.eurographics2015.ch/
+    start: 2015-05-04
+    end  : 2015-05-08
+    proceedings: 'https://diglib.eg.org/handle/10.2312/12086'
+  - year : 2014
+    venue: Strasbourg, France
+    url  : http://eg2014.unistra.fr/
+    start: 2014-04-07
+    end  : 2014-04-11
+    proceedings: 'https://diglib.eg.org/handle/10.2312/7703'
+  - year : 2013
+    venue: Girona, Spain
+    url  : http://eg2013.udg.edu/
+    start: 2013-05-06
+    end  : 2013-05-10
+    proceedings: 'https://diglib.eg.org/handle/10.2312/298'
+  - year : 2012
+    venue: Cagliari, Italy
+    url  : http://www.eurographics2012.it/
+    start: 2012-05-13
+    end  : 2012-05-15
+    proceedings: 'https://diglib.eg.org/handle/10.2312/292'
+  - year : 2011
+    venue: Llandudno, Wales
+    url  : http://eg2011.bangor.ac.uk/
+    start: 2011-04-11
+    end  : 2011-04-15
+    proceedings: 'https://diglib.eg.org/handle/10.2312/284'
 # ------------------------------------------------------------------------------
 # SGP
 # ------------------------------------------------------------------------------
